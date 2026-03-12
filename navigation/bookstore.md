@@ -10,12 +10,24 @@ description: Friends of the Poway Library Bookstore - Unique gently used books, 
   /* ── Reset & fonts ── */
   @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap');
 
+  /* Break out of Jekyll's centered content wrapper */
+  .post-content {
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: none !important;
+  }
+
   .fopl-page {
     font-family: 'Lato', sans-serif;
     color: #333;
-    max-width: 1100px;
-    margin: 0 auto;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
     padding: 0;
+    box-sizing: border-box;
   }
 
   /* ── Top nav bar ── */
