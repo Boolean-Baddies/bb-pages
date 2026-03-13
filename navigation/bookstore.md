@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: fopl
 title: Bookstore
 permalink: /bookstore
-show_reading_time: false
 description: Friends of the Poway Library Bookstore - Unique gently used books, magazines, DVDs, CDs, puzzles and more.
 ---
 
